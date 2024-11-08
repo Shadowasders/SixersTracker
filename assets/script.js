@@ -1,35 +1,8 @@
 // testing some little functions here and there.
+var teamName = docutment.querySelector(".teamname");
+//update variables to interact w/page functions
 
-var test = 3
-var test2 = 6
-
-function addTogether(x, y) {
-    console.log(x + y)
+function findTeam() {
+    var inputVal = teamName.value;
+    //add api key here)
 }
-
-addTogether(test, test2);
-
-function oddOrEven(n) {
-    let result;
-    if ( n % 2 === 0) {
-        result = "Even"
-    }
-
-    else {
-        result = "Odd"
-    }
-    return result
-}
-
-console.log(oddOrEven(4));
-
-var myArray = [1, 2, 3, 4]
-
-function addToArray(x) {
-    myArray.push(x)
-    console.log(myArray)
-    return myArray
-}
-
-addToArray(5);
-console.log(myArray);
